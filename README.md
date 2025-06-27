@@ -5,6 +5,10 @@ Under folder Dijkstra, we have implementation of basic dijkstra, dijkstra with m
 
 To run Dijkstra on a specific map, fill in the map input text's file name (e.g. flevoland.txt) when initilizing a Graph instance in the main function of the Dijkstra implementation. Note that Dial's algorithm requires changing a part of the "Graph" class as indicated by the comments in that file. 
 
+All input for Dijkstra should be in this format: 
+One edge per line;
+Each line in format: fromNode toNode Weight.
+
 #### Astar
 To run the A* algorithm on the flevoland data, you must run the Test.java file. By default it runs the AStar 
 algorithm on the "flevoland.txt" file using the manhatten distance heuristic. 

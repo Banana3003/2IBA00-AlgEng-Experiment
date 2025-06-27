@@ -70,8 +70,8 @@ public class Dial {
         CheckWeight cw = new CheckWeight(file);
         Graph graph = new Graph(file);
         // Rescale the input data
-        // int maxWeighted = Math.round((float) cw.maxWeight / 100f);
-        // Dial dial = new Dial(graph, 0, maxWeighted);
+        int maxWeighted = Math.round((float) cw.maxWeight / 100f);
+        Dial dial = new Dial(graph, 0, maxWeighted);
         long startTime = System.nanoTime();
 
         dial.run();

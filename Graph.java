@@ -38,8 +38,8 @@ public class Graph {
                 int toNode = Integer.valueOf(input[1]);
                 int weight = Integer.valueOf(input[2]);
                 // The commented out code below is rescaling for dial
-                weight = Math.round((float) weight / 100f);
-                weight = (weight == 0) ? 1 : weight;
+                // weight = Math.round((float) weight / 100f);
+                // weight = (weight == 0) ? 1 : weight;
                 this.addEdge(fromNode, toNode, weight);
 
                 this.edgeCount++; // Count the number of edges
